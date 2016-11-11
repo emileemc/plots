@@ -1,0 +1,19 @@
+library(ggplot2)
+
+hist(dat$prediction)
+> hist(dat$prediction, col = "blue")
+
+ggplot(dat, aes(x = prediction)) +
+  geom_histogram()
+
+ggplot(subset(dat)
+       aes(x=prediction,
+           y=features)+
+         geom_point()
+       
+       b <- ggplot(print2soctype11, aes(tenure_bucket))
+       > b + geom_bar()
+       b + geom_bar(aes(fill = print2soctype11$exper_bucket))
+       
+       b +geom_bar(aes(fill = print2soctype11$exper_bucket),position = "fill")
+       
